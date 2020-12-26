@@ -1,0 +1,7 @@
+name: Diano
+version: ${project.version}
+main: net.ulgen.play.diano.Diano
+api-version: 1.16
+authors: [ SupercoolU30 ]
+description: I have no idea why you downloaded this, but thanks anyways!
+website: play.ulgen.net
