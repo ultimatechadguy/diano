@@ -15,8 +15,8 @@ public class OnBreakBlock implements Listener {
         if (blockBroken.getType() == Material.DIAMOND_ORE) {
             event.setCancelled(true);
             blockBroken.setType(Material.AIR);
-            ItemStack diamonds = new ItemStack(Material.DIAMOND, 0);
-            blockBroken.getWorld().dropItemNaturally(blockBroken.getLocation(), diamonds);
+            //ItemStack diamonds = new ItemStack(Material.DIAMOND, 0);
+            //blockBroken.getWorld().dropItemNaturally(blockBroken.getLocation(), diamonds);
         }
     }
 }
